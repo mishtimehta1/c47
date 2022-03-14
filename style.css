@@ -1,0 +1,16 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: flex;
+  border:10px solid;
+  border-radius:17px;
+}
+.startButton{
+  width:60px;
+   height:60px; 
+  background-image: url('greenButton.png');
+   background-size: cover; border-radius: 30px; display: inline-block; cursor: pointer; 
+  -webkit-transition-duration: 0.4s; /* Safari */ transition-duration: 0.4s; outline: none;
+ }
